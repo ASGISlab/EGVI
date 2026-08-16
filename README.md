@@ -30,9 +30,6 @@ the same 14 columns.
 | `tp_houseprice_mid.csv`  | 59,895 | 152,872 – 248,204 | 197,704 |
 | `tp_houseprice_high.csv` | 29,948 | 248,207 – 3,721,850 | 321,409 |
 
-*Row counts and `Y` statistics above were computed directly from the CSV
-files. The unit of `Y` is not stated in `data_dictionary.csv` — please add
-it (e.g., NTD, NTD per ping/m², thousands of NTD) before publishing.*
 
 ## Data dictionary
 
@@ -57,5 +54,5 @@ convenience copy.
 | `school_d` | Distance to the nearest school | Numeric | m | — |
 | `park_d` | Distance to the nearest park | Numeric | m | — |
 
-**Note:** `Transaction_year` is given in the ROC (Republic of China / Minguo)
+**Note:** `Transaction_year` is given in the ROC (Republic of China)
 calendar — add 1911 to convert to the Gregorian year (e.g., `108` → 2019).
