@@ -1,0 +1,15 @@
+﻿Variable,Description,Data_Type,Unit,Coding
+Y,Variable included in the housing transaction dataset,Numeric,,
+Enhanced_GVI_quantification,Quantitative measure related to the Enhanced Green View Index (Enhanced GVI),Numeric,,
+Transaction_including_the_first_floor_versus_not,Whether the transaction property includes the first floor,Numeric,,"0 = No, 1 = Yes"
+Housing_age,Age of the housing property,Numeric,Years,
+Transaction_year,Transaction year (ROC calendar year)                     ,Numeric,ROC year,
+Condominium_versus_not,Whether the property is a condominium                    ,Numeric,,"0 = No, 1 = Yes"
+Apartment_versus_not,Whether the property is an apartment                     ,Numeric,,"0 = No, 1 = Yes"
+Studio_versus_not,Whether the property is a studio                         ,Numeric,,"0 = No, 1 = Yes"
+Detached_House_versus_not,Whether the property is a detached house                 ,Numeric,,"0 = No, 1 = Yes"
+Storefront_versus_not,Whether the property has a storefront                    ,Numeric,,"0 = No, 1 = Yes"
+Commercial_building_versus_not,Whether the property is a commercial building            ,Numeric,,"0 = No, 1 = Yes"
+mrt_d,Distance to the nearest MRT station (meters)             ,Numeric,m,
+school_d,Distance to the nearest school (meters)                  ,Numeric,m,
+park_d,Distance to the nearest park (meters)                    ,Numeric,m,
