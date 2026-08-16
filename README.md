@@ -17,8 +17,7 @@
 ```
 
 Each city's transactions are split into three files — `low`, `mid`, and
-`high` — by **transaction price tertile** (`low` = bottom third, `mid` =
-middle third, `high` = top third of `Y` for that city). All six files share
+`high`. All six files share
 the same 14 columns.
 
 | File | Rows | `Y` range (min–max) | `Y` mean |
