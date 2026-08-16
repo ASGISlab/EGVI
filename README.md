@@ -6,7 +6,6 @@
 ```
 .
 ├── CITATION.cff          # Citation metadata (see "How to cite" below)
-├── LICENSE                # CC BY 4.0
 ├── README.md              # This file
 ├── data_dictionary.csv    # Column-level definitions for every CSV in data/
 └── data/
