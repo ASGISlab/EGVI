@@ -5,7 +5,6 @@
 
 ```
 .
-├── CITATION.cff          # Citation metadata (see "How to cite" below)
 ├── README.md              # This file
 ├── data_dictionary.csv    # Column-level definitions for every CSV in data/
 └── data/
