@@ -13,8 +13,12 @@
     ├── kh_houseprice_high.csv
     ├── tp_houseprice_low.csv
     ├── tp_houseprice_mid.csv
-    └── tp_houseprice_high.csv
+    ├── tp_houseprice_high.csv
+    ├── kaohsiung.geojson  # 300 m × 300 m grid with computed Enhanced GVI (Kaohsiung)
+    └── taipei.geojson     # 300 m × 300 m grid with computed Enhanced GVI (Taipei)
 ```
+
+### Housing transaction data (CSV)
 
 Each city's transactions are split into three files — `low`, `mid`, and
 `high`. All six files share
@@ -28,6 +32,19 @@ the same 14 columns.
 | `tp_houseprice_low.csv`  | 29,950 | 714 – 152,869 | 118,128 |
 | `tp_houseprice_mid.csv`  | 59,895 | 152,872 – 248,204 | 197,704 |
 | `tp_houseprice_high.csv` | 29,948 | 248,207 – 3,721,850 | 321,409 |
+
+### Enhanced GVI grid data (GeoJSON)
+
+| File | City | Description |
+|---|---|---|
+| `kaohsiung.geojson` | Kaohsiung | 300 m × 300 m grid; each cell holds the computed Enhanced GVI result |
+| `taipei.geojson`    | Taipei    | 300 m × 300 m grid; each cell holds the computed Enhanced GVI result |
+
+These files contain the spatial grid on which the Enhanced Green View
+Index (Enhanced GVI) was calculated. Each feature is one 300 m × 300 m
+grid cell (polygon), and its properties store the Enhanced GVI value
+computed for that cell. They can be opened directly in QGIS, ArcGIS, or
+loaded with GeoPandas (`geopandas.read_file("data/taipei.geojson")`).
 
 
 ## Data dictionary
